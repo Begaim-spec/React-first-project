@@ -1,0 +1,75 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+ul{
+    list-style-type: none;
+    color: white;
+}
+.header-color{
+
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 140px;
+    background-color: #FF3E6C;
+}
+.menu div{
+    padding: 20px 0;
+}
+.menu-list{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+.menu-list li{
+    margin-left: 30px;
+}
+.main-content{
+    text-align: center;
+    width: 630px;
+    font-size: 18px;
+}
+.rate-card{
+    padding: 28px;
+    background-color: white;
+    border-color: #FF3E6C;
+    width: 275px;
+    height: 130px;
+    display: inline-block;
+    text-align: left;
+    margin: 36px 0 292px 140px;
+}
+.card-title{
+    color:  #FF3E6C;
+    text-transform: uppercase;
+}
+.main{
+    background-color: #EFEFEF;
+    padding-top: 39px;
+}
+.star {
+    text-align: right;
+    margin: 17px 28px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    background-color: #FF3E6C;
+    padding: 39px 80px;
+}
+.rate{
+    text-align: left;
+}
